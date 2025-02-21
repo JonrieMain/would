@@ -19,10 +19,15 @@ const procc = ()=>{
     }
 }
 
-no.addEventListener("mouseover",()=>{
-    procc();
-});
 
-no.addEventListener("click",()=>{
-    procc();
-});
+
+
+if(window.matchMedia("(max-width: 800px)")){
+    no.addEventListener("click",()=>{
+        procc();
+    });
+}else{
+    no.addEventListener("mouseover",()=>{
+        procc();
+    });
+}
