@@ -180,7 +180,7 @@ html, body {
   }
   .text >h1{
     color: rgb(255, 106, 131);
-    font-family: Cursive, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-shadow: rgba(255, 119, 139, 0.8) 3px 3px 10px;
     font-size: 30px;
     text-align: center;

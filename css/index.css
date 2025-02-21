@@ -8,6 +8,7 @@ html, body {
     height: 100%;
   }
   
+  
   .wrapper {
     width: 100%;
     background: #f3f4f4;
@@ -204,4 +205,14 @@ html, body {
   }
   .text >form >button:hover{
     transform: translateY(-3px);
+  }
+
+  @media screen and (max-width: 805px){
+
+    .text >h1{
+      color: rgb(255, 148, 148);
+      font-size: 20px;
+      text-align: center;
+    }
+
   }
